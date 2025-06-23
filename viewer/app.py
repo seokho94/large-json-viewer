@@ -1,7 +1,7 @@
 # viewer/app.py
 
 import streamlit as st
-from viewer.parser import flatten_metrics_data
+from parser import flatten_metrics_data
 
 st.set_page_config(page_title="OTEL JSON Viewer", layout="wide")
 st.title("📊 대용량 OTEL JSON Viewer")
